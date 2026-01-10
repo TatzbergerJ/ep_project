@@ -1,0 +1,23 @@
+# started on Sat Jan 10 14:20:57 2026
+
+
+ Performance counter stats for './life_v4 1000 100 0':
+
+       14036702178      cycles                                                                  (19.84%)
+       36406706323      instructions                     #    2.59  insn per cycle              (29.86%)
+          22493115      branch-misses                                                           (39.88%)
+       18887833360      L1-dcache-loads                                                         (39.96%)
+        5132148911      L1-dcache-stores                                                        (10.02%)
+           3370631      L1-dcache-load-misses            #    0.02% of all L1-dcache accesses   (10.02%)
+   <not supported>      L1-dcache-store-misses                                                
+             62142      LLC-loads                                                               (10.02%)
+             63329      LLC-stores                                                              (10.02%)
+              1227      LLC-load-misses                  #    1.97% of all LL-cache accesses    (10.02%)
+             22058      LLC-store-misses                                                        (9.94%)
+
+       2.994181192 seconds time elapsed
+
+       2.993691000 seconds user
+       0.000000000 seconds sys
+
+

@@ -1,0 +1,23 @@
+# started on Sat Jan 10 14:20:54 2026
+
+
+ Performance counter stats for './life_v3 1000 100 0':
+
+       13970967840      cycles                                                                  (19.90%)
+       36540903424      instructions                     #    2.62  insn per cycle              (29.97%)
+          22461947      branch-misses                                                           (40.04%)
+       18795987572      L1-dcache-loads                                                         (40.17%)
+        5083265092      L1-dcache-stores                                                        (10.07%)
+           3397675      L1-dcache-load-misses            #    0.02% of all L1-dcache accesses   (10.02%)
+   <not supported>      L1-dcache-store-misses                                                
+             65456      LLC-loads                                                               (9.94%)
+             64795      LLC-stores                                                              (9.94%)
+              2314      LLC-load-misses                  #    3.54% of all LL-cache accesses    (9.94%)
+             17160      LLC-store-misses                                                        (9.94%)
+
+       2.979717808 seconds time elapsed
+
+       2.979291000 seconds user
+       0.000000000 seconds sys
+
+

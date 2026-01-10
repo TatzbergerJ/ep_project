@@ -1,0 +1,23 @@
+# started on Sat Jan 10 14:20:45 2026
+
+
+ Performance counter stats for './life 1000 100 0':
+
+       14335790707      cycles                                                                  (19.92%)
+       39933063971      instructions                     #    2.79  insn per cycle              (29.97%)
+          22788714      branch-misses                                                           (40.02%)
+       19932827263      L1-dcache-loads                                                         (40.15%)
+        5240193334      L1-dcache-stores                                                        (10.05%)
+          27958914      L1-dcache-load-misses            #    0.14% of all L1-dcache accesses   (10.05%)
+   <not supported>      L1-dcache-store-misses                                                
+            328890      LLC-loads                                                               (9.99%)
+            306905      LLC-stores                                                              (9.92%)
+             11408      LLC-load-misses                  #    3.47% of all LL-cache accesses    (9.91%)
+             25926      LLC-store-misses                                                        (9.92%)
+
+       3.066004627 seconds time elapsed
+
+       3.061675000 seconds user
+       0.004002000 seconds sys
+
+

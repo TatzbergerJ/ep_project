@@ -1,0 +1,23 @@
+# started on Sat Jan 10 14:21:19 2026
+
+
+ Performance counter stats for './life_v2 1000 100 0':
+
+          31117673      cycles                                                                  (24.61%)
+          35716390      instructions                     #    1.15  insn per cycle              (82.24%)
+             22065      branch-misses                                                         
+          10965124      L1-dcache-loads                                                       
+     <not counted>      L1-dcache-stores                                                        (0.00%)
+     <not counted>      L1-dcache-load-misses                                                   (0.00%)
+   <not supported>      L1-dcache-store-misses                                                
+     <not counted>      LLC-loads                                                               (0.00%)
+     <not counted>      LLC-stores                                                              (0.00%)
+     <not counted>      LLC-load-misses                                                         (0.00%)
+     <not counted>      LLC-store-misses                                                        (0.00%)
+
+       0.007440949 seconds time elapsed
+
+       0.007482000 seconds user
+       0.000000000 seconds sys
+
+

@@ -1,0 +1,23 @@
+# started on Sat Jan 10 14:21:18 2026
+
+
+ Performance counter stats for './life_v8 1000 100 0':
+
+         775769146      cycles                                                                  (20.42%)
+        1975969774      instructions                     #    2.55  insn per cycle              (32.34%)
+           5266856      branch-misses                                                           (42.01%)
+         842254600      L1-dcache-loads                                                         (42.07%)
+         306731199      L1-dcache-stores                                                        (9.67%)
+            550995      L1-dcache-load-misses            #    0.07% of all L1-dcache accesses   (9.67%)
+   <not supported>      L1-dcache-store-misses                                                
+             11602      LLC-loads                                                               (9.67%)
+              7117      LLC-stores                                                              (9.67%)
+                 0      LLC-load-misses                                                         (9.67%)
+                31      LLC-store-misses                                                        (9.59%)
+
+       0.166006078 seconds time elapsed
+
+       0.165897000 seconds user
+       0.000000000 seconds sys
+
+
