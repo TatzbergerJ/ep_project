@@ -49,7 +49,7 @@ for iter in $(seq 1 $ITERATIONS); do
         
         # Run perf stat and capture output
         PERF_OUTPUT="$TEMP_DIR/${prog}_${iter}.txt"
-        perf stat -e "$PERF_EVENTS" -o "$PERF_OUTPUT" "./$prog" "$PARAM1" "$PARAM2" "$PARAM3" 2>&1 > /dev/null
+        perf stat -e "$PERF_EVENTS" -o "$PERF_OUTPUT" "./$prog" "$PARAM1" "$PARAM2" "$PARAM3" 0 2>&1 > /dev/null
         
         # Parse perf output and extract metrics
         cycles=$(grep -oP '[\d,]+(?=\s+cycles)' "$PERF_OUTPUT" | tr -d ',')
